@@ -29,15 +29,13 @@ function IncreaseScore(){
 function makeBubble(){
     var clutter = "";
 
-    for(var i=1;i<=56;i++){
+    for(var i=1;i<=168;i++){
         var rn = Math.floor(Math.random()*10);
         clutter += `<div id="bubble">${rn}</div>`;
     }
     
     document.querySelector('#pbtm').innerHTML = clutter;
 }
-
-
 
 
 function startgame(){
